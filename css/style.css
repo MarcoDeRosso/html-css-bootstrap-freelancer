@@ -6,6 +6,33 @@ nav {
 header {
     height: 300px;
     background-color: #1abc9c;
-    text-align: center;
     color: #fff;
+}
+
+.centered {
+    text-align: center;
+}
+
+.red {
+    background-color: #ba4b63;
+}
+
+.greenwater {
+    background-color: #1ea4b6;
+}
+
+.black {
+    background-color: #140f0f;
+}
+
+.azure {
+    background-color: #1c83c1;
+}
+
+.blue {
+    background-color: #0e38b5;
+}
+
+.brown {
+    background-color: #ccb2a3;
 }
