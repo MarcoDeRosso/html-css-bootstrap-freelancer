@@ -5,8 +5,11 @@ nav {
 
 header,
 article {
-    background-color: #1abc9c;
     color: #fff;
+}
+
+.green {
+    background-color: #1abc9c;
 }
 
 .centered {
@@ -37,6 +40,6 @@ article {
     background-color: #ccb2a3;
 }
 
-footer {
+.grey {
     background-color: #3a546d;
 }
