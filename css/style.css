@@ -10,36 +10,80 @@ article {
 
 .green {
     background-color: #1abc9c;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .centered {
     text-align: center;
 }
 
+.titolo-box {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
 .red {
     background-color: #ba4b63;
+    margin-bottom: 24px;
 }
 
 .greenwater {
     background-color: #1ea4b6;
+    margin-bottom: 24px;
 }
 
 .black {
     background-color: #140f0f;
+    margin-bottom: 24px;
 }
 
 .azure {
     background-color: #1c83c1;
+    margin-bottom: 24px;
 }
 
 .blue {
     background-color: #0e38b5;
+    margin-bottom: 24px;
 }
 
 .brown {
     background-color: #ccb2a3;
+    margin-bottom: 24px;
 }
 
 .grey {
     background-color: #3a546d;
+}
+
+
+/* input part */
+
+.input-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.input-container h2 {
+    margin-bottom: 12px;
+}
+
+.contact-form input {
+    border: 0;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    padding-bottom: 12px;
+    margin-bottom: 12px;
+}
+
+.contact-form textarea {
+    border: 0;
+    border-bottom: 1px #ccc solid;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.contact-form ::placeholder {
+    color: #000;
 }
