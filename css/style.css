@@ -19,6 +19,42 @@ article {
     color: #fff;
 }
 
+.line-icon i {
+    margin-bottom: 24px;
+}
+
+.line-icon::before,
+.line-icon::after {
+    width: 90px;
+    height: 5px;
+    border-top: 5px solid #fff;
+    border-radius: 12px;
+    display: inline-block;
+    content: '';
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.line-icon-black::before,
+.line-icon-black::after {
+    width: 90px;
+    height: 5px;
+    border-top: 5px solid #000;
+    border-radius: 12px;
+    display: inline-block;
+    content: '';
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+header img {
+    width: 200px;
+}
+
+.header-list {
+    font-size: 20px;
+}
+
 .green {
     background-color: #1abc9c;
     padding-top: 48px;
