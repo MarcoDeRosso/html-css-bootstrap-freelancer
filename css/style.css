@@ -8,7 +8,7 @@ nav a {
     font-weight: bold;
 }
 
-nav .navbar-collapse {
+nav .navbar-collapse.grow-0 {
     flex-grow: 0;
 }
 
@@ -18,6 +18,11 @@ nav .navbar-collapse {
 
 
 /* utility rules */
+
+.padding-container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
 
 header,
 article,
@@ -121,11 +126,6 @@ header img {
 
 /* input part */
 
-.padding-container {
-    padding-top: 48px;
-    padding-bottom: 48px;
-}
-
 .contact-form input {
     border: 0;
     border-bottom: 1px #ccc solid;
@@ -152,10 +152,14 @@ header img {
     background-color: #3a546d;
 }
 
+.social {
+    margin-bottom: 24px;
+}
+
 .social i {
     border: 1px solid #fff;
     border-radius: 100%;
-    padding: 24px;
+    padding: 18px;
     margin: 6px;
 }
 
